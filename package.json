@@ -1,0 +1,23 @@
+{
+  "name": "Pug-Life",
+  "version": "1.0.0",
+  "description": "website for pug tips and photos",
+  "main": "index.js",
+  "repository": "https://github.com/Zoealexandra/Pug-Life.git",
+  "author": "Zoealexandra",
+  "scripts": {
+    "debug": "nodemon",
+    "test": "jest --watchAll --noStackTrace",
+    "start": "node index"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.2"
+  }
+}
