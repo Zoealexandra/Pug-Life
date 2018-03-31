@@ -8,10 +8,6 @@ module.exports = routes
 
 // 1. home route
 routes.get('/', (req, res) => {
-    res.send('cards/index')
+    res.send('home page')
   })
-  
-  // 2. rendered page route: /cards
-    routes.get('/cards', (req, res) => {
-    res.render('cards/index')
-  }) 
+ 

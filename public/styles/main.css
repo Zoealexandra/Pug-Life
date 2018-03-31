@@ -1,0 +1,14 @@
+img.resize {
+    max-width: 200px;
+    max-height:200px;
+    align-content: center;
+  }
+
+dino {
+    color: blueviolet;
+}
+
+h1 {
+    color: blueviolet;
+}
+
